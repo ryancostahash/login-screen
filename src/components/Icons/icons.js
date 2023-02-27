@@ -24,7 +24,7 @@ export const IconLocker = (
     <path
       d="M4.04762 7.84C4.04762 7.84 2.52381 1 9 1C15.4762 1 13.9524 7.84 13.9524 7.84M1 8.6H17V20H1V8.6Z"
       stroke="#A5A5A5"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       stroke-linecap="round"
       stroke-linejoin="round"
     />
