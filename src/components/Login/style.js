@@ -10,7 +10,7 @@ export const Banner = styled.div`
     width:  50%;
     height: 100%;
     padding: 64px 0 96px 0;
-    background-color: var(--primary-color);
+    background-color: #5C197C;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -26,7 +26,7 @@ export const BoxTitle = styled.div`
 export const Title = styled.h1`
     font-size: 128px;
     font-weight: 500;
-    color: var(--text-primary-color);
+    color: #FFFFFF;
 `;
 
 export const Content = styled.div`
