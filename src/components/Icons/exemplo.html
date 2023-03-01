@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+      }
+      .container {
+        display: flex;
+        height: 100%;
+      }
+      .menu {
+        background-color: red;
+        width: 46px;
+        transition: 2s ease;
+      }
+      .content {
+        background-color: green;
+        flex: 1;
+      }
+      .nav {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        list-style: none;
+        padding: 20px 12px;
+      }
+      .nav-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: nowrap;
+      }
+      .nav-item a {
+        opacity: 0;
+        transition: 2s ease;
+      }
+      .menu:hover {
+        width: 133px;
+      }
+      .menu:hover .nav-item a {
+        opacity: 1;
+      }
+      .nav-item:hover {
+        background: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+      
+      <div class="menu">
+        <div class="logo">
+          <img
+            src="https://www.freelogodesign.org/assets/img/logo-couleurs.jpeg"
+            height="100px"
+          />
+        </div>
+        <ul class="nav">
+          <li class="nav-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flat_tick_icon.svg/1024px-Flat_tick_icon.svg.png"
+              height="20px"
+            />
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flat_tick_icon.svg/1024px-Flat_tick_icon.svg.png"
+              height="20px"
+            />
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flat_tick_icon.svg/1024px-Flat_tick_icon.svg.png"
+              height="20px"
+            />
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="content">content</div>
+    </div>
+  </body>
+</html>

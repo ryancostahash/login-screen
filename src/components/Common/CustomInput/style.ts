@@ -23,5 +23,6 @@ export const Input = styled.input`
     padding: 15px 15px 15px 0;
     border-radius: 6px;
     border: none;
+    background: #F5F5F5;
     color: #A5A5A5;
 `; 

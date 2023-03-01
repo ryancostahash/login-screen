@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import CustomInput from '../Common/CustomInput'
+import CustomInput from '../Common/CustomInput/CustomInput'
 import { IconLocker, IconUser } from "../Icons/icons";
 import { 
     Banner, 
