@@ -27,14 +27,6 @@ export const Banner = styled.div`
     @media (max-width: 1200px) {
         display: none;
     }
-
-    @media (max-width: 1200px) {
-        
-    }
-
-    @media (max-width: 1200px) {
-        
-    }
 `;
 
 export const BoxTitle = styled.div`
@@ -52,8 +44,6 @@ export const Title = styled.h1`
 export const Content = styled.div`
     width:  50%;
     height: 100%;
-    /* background-color: gray; */
-    /* padding: 264px 200px 24px 200px; */
 
 
     @media screen and (max-width: 1200px) {
@@ -67,10 +57,6 @@ export const Content = styled.div`
     @media screen and (min-width: 1200px) {
         padding: 264px 120px 24px 120px;
     }
-
-    @media screen and (min-width: 1536px) {
-        padding: 264px 180px 24px 180px;
-    }
 `;
 
 export const BoxContent = styled.div`
@@ -82,19 +68,17 @@ export const BoxContent = styled.div`
         font-weight: 300;
     }
 
-    @media screen and (max-width: 768px) {
-        max-width: 500px;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        padding-top: 48px;
-    }
-
-    
     @media screen and (max-width: 1200px) {
         padding-top: 48px;
         max-width: 500px;
-        
+        display: flex;
+        flex-direction: column;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
     }
 `;
 
@@ -141,13 +125,12 @@ export const Button = styled.button`
 
 export const CopyRight = styled.div`
     display: flex;
+    flex-grow: 1;
     justify-content: start;
     align-items: end;
-    height: 21vh;
-
 
     p {
-        font-size: 14px;
+        font-size: 16px;
         color: #7c7f80;
     }
 
@@ -157,7 +140,6 @@ export const CopyRight = styled.div`
         justify-content: center;
         display: flex;
         align-items: end;
-        height: 42vh;
 
         p {
             font-size: 12px;
