@@ -4,6 +4,6 @@ interface ContentProps {
 
 export default function Content(props: ContentProps){
     return (
-        <div style={{ flex: '1', marginLeft: '62px' }}>{props.children}</div>
+        <div style={{ flex: '1', marginLeft: '160px', zIndex: '0' }}>{props.children}</div>
     )
 }

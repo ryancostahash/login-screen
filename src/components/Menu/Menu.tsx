@@ -36,28 +36,49 @@ export default function Menu() {
         ></Image>
       </Link>
       <ul>
-        <li>
-          <Link href="/home">{IconHome}</Link>
-        </li>
-        <li>
-          <Link href="/services">{IconSpanner}</Link>
-        </li>
-        <li>
-          <Link href="/tickets">{IconTicket}</Link>
-        </li>
+        <Link href="/home">
+          <li>
+            <Link href="" style={{ marginLeft: "22px" }}>
+              {IconHome}
+            </Link>
+            <p>Home</p>
+          </li>
+        </Link>
+        <Link href="/services" >
+          <li>
+            <Link href="" style={{ marginLeft: "21.5px" }}>
+              {IconSpanner}
+            </Link>
+            <p style={{ marginLeft: "0.5px" }}>Serviços</p>
+          </li>
+        </Link>
+        <Link href="/tickets" >
+          <li>
+            <Link href="" style={{ marginLeft: "19px" }}>
+              {IconTicket}
+            </Link>
+            <p style={{ marginLeft: "3px" }}>Ticket</p>
+          </li>
+        </Link>
 
-        <li>
-          <Link href="/invoicings">{IconHandUsd}</Link>
-        </li>
-        {/* <MenuItem text={isHovered ? 'Home' : ''} url="/home" icon={IconHome} />
-                <MenuItem text={isHovered ? 'Serviços' : ''} url="/services" icon={IconSpanner} />
-                <MenuItem text={isHovered ? 'Ticket' : ''} url="/tickets" icon={IconTicket} />
-                <MenuItem text={isHovered ? 'Faturas' : ''} url="/invoicings" icon={IconHandUsd} /> */}
+        <Link href="/invoicings" >
+          <li>
+            <Link href="" style={{ marginLeft: "11px" }}>
+              {IconHandUsd}
+            </Link>
+            <p style={{ marginLeft: "11px" }}>Invoicing</p>
+          </li>
+        </Link>
       </ul>
       <ul>
-        <li>
-          <Link href="/logon">{IconLogout}</Link>
-        </li>
+        <Link href="/logon">
+          <li>
+            <Link href="" style={{ marginLeft: "22px" }}>
+              {IconLogout}
+            </Link>
+            <p>Sair</p>
+          </li>
+        </Link>
       </ul>
     </Aside>
   );

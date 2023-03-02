@@ -36,7 +36,7 @@ export default function Login(){
                     </BoxInputs>
                     <Link style={{ textDecoration: 'underline', color: '#5B8DEF' }} href="#">Esqueceu sua senha?</Link>
                     <Button>Entrar</Button>
-                    <CopyRight style={{ fontSize: '16px' }}>@2022 Hashsys. Todos os direitos reservados</CopyRight>
+                    <CopyRight><p>@2022 Hashsys. Todos os direitos reservados</p></CopyRight>
                 </BoxContent>
             </Content>
         </Container>
