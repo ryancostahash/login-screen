@@ -41,7 +41,7 @@ export default function Menu() {
             <Link href="" style={{ marginLeft: "22px" }}>
               {IconHome}
             </Link>
-            <p>Home</p>
+            <p className="home">Home</p>
           </li>
         </Link>
         <Link href="/services" >
@@ -49,15 +49,15 @@ export default function Menu() {
             <Link href="" style={{ marginLeft: "21.5px" }}>
               {IconSpanner}
             </Link>
-            <p style={{ marginLeft: "0.5px" }}>Serviços</p>
+            <p className="service">Serviços</p>
           </li>
         </Link>
-        <Link href="/tickets" >
+        <Link href="/tickets">
           <li>
             <Link href="" style={{ marginLeft: "19px" }}>
               {IconTicket}
             </Link>
-            <p style={{ marginLeft: "3px" }}>Ticket</p>
+            <p className="ticket">Ticket</p>
           </li>
         </Link>
 
@@ -66,7 +66,7 @@ export default function Menu() {
             <Link href="" style={{ marginLeft: "11px" }}>
               {IconHandUsd}
             </Link>
-            <p style={{ marginLeft: "11px" }}>Invoicing</p>
+            <p className="invoicing">Faturamento</p>
           </li>
         </Link>
       </ul>
@@ -76,7 +76,7 @@ export default function Menu() {
             <Link href="" style={{ marginLeft: "22px" }}>
               {IconLogout}
             </Link>
-            <p>Sair</p>
+            <p className="">Sair</p>
           </li>
         </Link>
       </ul>

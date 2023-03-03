@@ -6,7 +6,7 @@ export const Aside = styled.nav`
   height: 100vh;
   display: flex;
   flex-direction: column;
-  transition: 2s ease;
+  transition: 0.5s ease;
   position: absolute;
   z-index: 1;
   
@@ -37,8 +37,32 @@ export const Aside = styled.nav`
     gap: 40px;
     list-style: none;
     padding: 0px 15px;
+    /* flex-grow: 1; */
+  }
+
+  ul:nth-child(2) {
     flex-grow: 1;
   }
+
+  ul:nth-child(2) .home {
+  }
+
+  ul:nth-child(2) .service {
+    margin-left: 0.5px;
+  }
+
+  ul:nth-child(2) .ticket {
+    margin-left: 3px;
+  }
+
+  ul:nth-child(2) .invoicing {
+    margin-left: 11px;
+  }
+
+  ul:nth-child(3) {
+    margin-bottom: 28px;
+  }
+
 
   // nav-item
   li {

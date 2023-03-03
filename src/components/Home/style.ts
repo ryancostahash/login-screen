@@ -115,6 +115,7 @@ export const BoxService = styled.div`
   background-color: white;
   border-radius: 8px;
   padding: 28px 40px 43px 25px;
+  margin-bottom: 62px;
 
   h3 {
     color: rgba(15, 18, 63, 1);
