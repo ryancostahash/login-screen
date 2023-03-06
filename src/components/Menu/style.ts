@@ -21,10 +21,6 @@ export const Aside = styled.nav`
     transition: 0.5s ease-in-out;
   }
 
-  /* &:hover li a {
-    justify-content: start;
-  } */
-  
   img {
     margin-top: 24px;
     margin-bottom: 60px;
@@ -37,7 +33,6 @@ export const Aside = styled.nav`
     gap: 40px;
     list-style: none;
     padding: 0px 15px;
-    /* flex-grow: 1; */
   }
 
   ul:nth-child(2) {

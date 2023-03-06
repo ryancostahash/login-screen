@@ -193,7 +193,6 @@ export const BoxClient = styled.div`
 
 export const BoxCalendar = styled.div`
   width: 285px;
-  /* height: 346px; */
   background-color: #ffffff;
   border-radius: 8px;
   padding: 20px 13px 17px 13px;

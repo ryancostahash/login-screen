@@ -1,28 +1,19 @@
-import { IconArrowDown } from "../Icons/icons";
-import { Container } from "./style";
+import ComponentSteps from "@/components/Common/Steps/ComponentSteps";
+import { FormData } from "./style";
 
-export default function CadastroPJ() {
+export default function DataForm() {
   return (
-    <Container>
-      <form action="">
-        <div className="box-title">
-          <p>Crie um novo Cadastro</p>
-          <div>
-            <p>Selecione o tipo de pessoa: {IconArrowDown}</p>
-            <select name="">
-              <option value="PJ">Pessoa Jurídica</option>
-              <option value="PF">Pessoa Física</option>
-            </select>
-          </div>
-        </div>
-
-        <div className="box-data">
+        <FormData>
           <p>Dados:</p>
           <div className="box-input-data">
-            <label htmlFor="">Nome:</label>
-            <input type="text" />
-            <label htmlFor="">E-mail</label>
-            <input type="text" />
+            <div className="box-first-inputs">
+              <label htmlFor="">Nome:</label>
+              <input type="text" />
+            </div>
+            <div className="box-first-inputs">
+              <label htmlFor="">E-mail</label>
+              <input type="text" />
+            </div>
           </div>
           <div className="box-input-cpf-cnpj">
             <div>
@@ -77,21 +68,8 @@ export default function CadastroPJ() {
                         <option value="">Não</option>
                     </select>
                 </div>
-
-                
             </div>
-            <div className="steps">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div className="buttons">
-                    <button>Cancelar</button>
-                    <button>Continuar</button>
-                </div>
           </div>
-        </div>
-      </form>
-    </Container>
+        </FormData>
   );
 }

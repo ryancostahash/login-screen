@@ -12,9 +12,8 @@ import {
   BoxNotification,
   BoxWarnings,
 } from "./style";
-import Calendar from "react-calendar";
+// import Calendar from "react-calendar";
 import { useState } from "react";
-import "react-calendar/dist/Calendar.css";
 import CustomButton from "../Common/CustomButton/CustomButton";
 
 export default function Homepage() {
@@ -108,7 +107,7 @@ export default function Homepage() {
             {IconSettings}
           </BoxClient>
           <BoxCalendar>
-            <Calendar onChange={onChange} value={value} />
+            {/* <Calendar onChange={onChange} value={value} /> */}
             <BoxMarks>
               <div style={{ backgroundColor: "red" }}></div>
               <p>08 e 18 Report Semanal</p>
